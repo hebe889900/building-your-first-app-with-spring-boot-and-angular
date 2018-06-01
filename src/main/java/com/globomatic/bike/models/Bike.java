@@ -3,6 +3,10 @@ package com.globomatic.bike.models;
 import java.math.BigDecimal;
 import java.sql.Date;
 
+import javax.persistence.Entity;
+
+
+@Entity
 public class Bike {
 	private String name;
 	private String email;
